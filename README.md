@@ -61,7 +61,7 @@ will be the Development branch
 
 Sometimes your team will need to make changes to the existing 
 published version of a product. It's important to remove typos 
-from the currently published project. This is a Hot Fix
+from the currently published project. This is a Hot Fix.
 
 Check the current version of the project for typos. 
 
@@ -73,7 +73,7 @@ Check the current version of the project for typos.
 
 ![Git Branching Workflow](03-Git-Branching-Workflow-Fix-typos.png)
 
-These changes should be incorporated into the developement branch. 
+These changes should be incorporated into the development branch. 
 
 - Merge with develop
 
@@ -82,7 +82,7 @@ These changes should be incorporated into the developement branch.
 ### New Feature: Add new characters
 
 Sometimes your team will need to create a new feature. On larger 
-teams it's safer to keep this out of the development branch until
+teams, it's safer to keep this out of the development branch until
 the new feature is fully functioning. 
 
 The producers have suggested that adding a zookeeper to the story 
@@ -105,7 +105,7 @@ The word from on top is that the ending is weak and needs work.
 You'll need to fix it. 
 
 The ending is part of regular development your team is improving
-something that is alread there. This work should be done on the 
+something that is already there. This work should be done on the 
 development branch. 
 
 - Checkout develop branch
@@ -116,8 +116,8 @@ development branch.
 
 ### Merge new character branches into develop
 
-The new character ideas were approved! Be sure to proof read them
-before merging them with main story under developement. 
+The new character ideas were approved! Be sure to proofread them
+before merging them with main story under development. 
 
 - Be sure you're on the `develop` branch
 - Merge `koala` branch into `develop`: `git merge koala`
@@ -127,7 +127,7 @@ before merging them with main story under developement.
 
 ### Review new script and ship it!
 
-When releasing a new version of a project you'll merge the development
+When releasing a new version of a project, you'll merge the development
 branch into the Porduction branch. 
 
 - Be sure you're on the `develop` branch
